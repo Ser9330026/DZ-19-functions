@@ -87,7 +87,7 @@ void line_arr(T arr[], const int length, T N) {
 диапазона.*/
 
 template <typename T>
-void empty_arr(T arr, const int length, T A, T B) {
+void empty_arr(T arr[], const int length, T A, T B) {
     srand(time(NULL));
     for (int i = 0; i < length; i++) {
         if (arr[i] < A && arr[i] > B) break;
